@@ -1,0 +1,13 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, strength INTEGER, shelf INTEGER);
+
+INSERT INTO store VALUES(1, "Frogskins", 5, 2, 1);
+INSERT INTO store VALUES(2, "Holbrooks", 3, 4, 1);
+INSERT INTO store VALUES(3, "Flak Jacket",4, 8, 2);
+INSERT INTO store VALUES(4, "Half Jacket",2, 7, 2);
+INSERT INTO store VALUES(5, "Juliet", 4, 9, 4);
+INSERT INTO store VALUES(6, "Dispatch", 2, 5, 3);
+INSERT INTO store VALUES(7, "Club Master", 4, 8, 5);
+
+SELECT * FROM store
+
+ORDER BY strength desc;
